@@ -12,22 +12,22 @@ The Metal Automata project includes libraries, automation and workflows that can
 The author(s) has identified a lack of automation and processes when managing a fleet of servers,  
 The situation is even more pronounced when,  
 
- - The server fleet is heterogenous (hardware from multiple vendors and generations)
+ - The server fleet is heterogeneous (hardware from multiple vendors and generations)
  - Hardware vendors do not follow a common set of standards
  - Hardware vendors interpret standards differently
  - Operational processes to manage servers span multiple teams
 
-Once a server has booted into an Operating system, theres a plethora of tooling and automation  
-to ensure configuration, performance, availabiliy and security of the system.
+Once a server has booted into an Operating system, there's a plethora of tooling and automation  
+to ensure configuration, performance, availability and security of the system.
 
 Although deploying servers and managing the hardware, firmware and ensuring its conformance involves significant operational overhead.  
 
 Multiple days and hours are spent spinning up a new datacenter or installing new racks with hardware,  
-the challenge lies in managing the fleet in a scalable and repeateable manner along with observability  
+the challenge lies in managing the fleet in a scalable and repeatable manner along with observability  
 into the conformance, resource consumption and overall health of the fleet.  
 
 Server hardware has a limited lifespan, during which various operational actions have to be carried out  
-to ensure the fleet is continuosly,
+to ensure the fleet is continuously,
 
  - **Consistent** in its hardware configuration and firmware
  - **Performant** in delivering the compute/storage functions
@@ -46,7 +46,7 @@ the details tend to be held in tribal knowledge that lives across multiple teams
 ## How
 
 The Metal Automata project draws from [published documents](#references) on the subject
-and from the author's experience working on large server deployments.
+and from the author's experiences eworking on large server deployments.
 
 This project intends to provide open-source automation and repeatable, clear processes (workflows)  
 that could be used out of the box or extended and maintained independently by its enthusiasts.
@@ -76,11 +76,11 @@ graph LR
     Rack/Cable --> Register --> Configure-BIOS/Firmware --> Profile/Benchmark --> Deploy
 ```
 
-Each server or groups of them can then be put through those repeateable workflows,
+Each server or groups of them can then be put through those repeatable workflows,
 
 ### Server maintenance/repair workflow
 
-A maintainence or repair flow would enable
+A maintenance or repair flow would enable
 
 ```mermaid
 graph LR
